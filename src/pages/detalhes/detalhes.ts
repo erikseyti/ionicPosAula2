@@ -16,6 +16,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class DetalhesPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    console.log("Valor1: "+this.navParams.get("valor1"));
+    console.log("Nome: "+this.navParams.get("nome"));
   }
 
   ionViewDidLoad() {

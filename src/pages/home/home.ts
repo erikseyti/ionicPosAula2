@@ -13,7 +13,12 @@ export class HomePage {
   }
   chamarDetalhesSemParametros()
   {
-    this.navCtrl.push(Detalhes);
+    this.navCtrl.push(DetalhesPage);
+  }
+
+  chamarDetalhesComParametros()
+  {
+    this.navCtrl.push(DetalhesPage,{"valor1":10,"valor2":20,"nome":"José"});
   }
 
 }
