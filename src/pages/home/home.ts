@@ -21,4 +21,9 @@ export class HomePage {
     this.navCtrl.push(DetalhesPage,{"valor1":10,"valor2":20,"nome":"José"});
   }
 
+  definirDetalhesRaiz()
+  {
+    this.navCtrl.setRoot(DetalhesPage,{"valor1":10,"valor2":20,"nome":"José"});
+  }
+
 }

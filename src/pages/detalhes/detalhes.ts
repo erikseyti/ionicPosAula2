@@ -24,4 +24,7 @@ export class DetalhesPage {
     console.log('ionViewDidLoad DetalhesPage');
   }
 
+fecharDetalhes(){
+  this.navCtrl.pop();
+}
 }
